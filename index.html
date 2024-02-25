@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
+    <title>James</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="50" alt="Logo de la página web">
+            </a>
+            <!-- Botón al minimizar (hamburguesa)-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Hero</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                            href="">Sobre mí</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#conoceme">Sobre mí</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#pokemon-list">Lista de Pokémon</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#episodios">Episodios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Seccion Hero-->
+    <section class="col hero" id="hero">
+        <div class="container custom-container">
+            <div class="row align-items-center">
+                <div class="col col-md-6">
+                    <img src="img/Foto-James-Hero.png" class="img-fluid custom-image" alt="Foto de James">
+                </div>
+                <div class="col-md-6">
+                    <h1>Mi nombre es James</h1>
+                    <h2>(コジロウ Kojirō en japonés)</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section class="conoceme" id="conoceme">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Sobre mí</h2>
+            <p class="seccion-texto">Mi nombre es James y soy uno de los miembros más prominentes del infame Team
+                Rocket. Permíteme contarte mi historia desde mi propia perspectiva.
+                Desde joven, siempre supe que estaba destinado a algo más grande que la vida común y corriente en la que
+                había nacido. Crecí en una familia adinerada, rodeado de lujos y privilegios, pero siempre me sentí
+                atrapado en una jaula dorada. La monotonía de la vida de la alta sociedad me ahogaba, y anhelaba
+                emociones más intensas y desafiantes.
+            </p>
+        </div>
+        <ul>
+            <li>Nombre: Entre 25 y 30 años</li>
+            <li>Edad: Entre 25 y 30 años</li>
+            <li>Sexo: Masculino</li>
+            <li>Región: Entre 25 y 30 años</li>
+            <li>Estado civil: Soltero</li>
+            <li>Aficiones: Coleccionar chapas, disfrazarse, </li>
+            <li>Oficio: Miembro del Team Rocket (Anteriormente)</li>
+            <li>Amigos: Jesse, Meowth, los mocosos (Ash Ketchump y sus amigos)</li>
+            <li>Enemigos: Los mocosos (Ash Ketchump y sus amigos), Butch y Cassidy </li>
+        </ul>
+        <h3 class="pokemon-list" id="pokemon-list">Lista de Pokémon</h3>
+        <h4 id="acompañantes">Acompañantes</h4>
+        <!--CAJAS POKEON-->
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Meowth</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                                    <img src="Pokémon/Meowth-tabla.webp" alt="Imagen de Meowth" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>Ha sido parte del equipo desde el principio de la serie y es un gran amigo,
+                                        aunque sea un estafador y un hablador. En el anime de Hispanoamérica a veces lo
+                                        llama cariñosamente "Chimuelo".</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Pelipper</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Pelipper-tabla.webp" alt="Imagen de Pelipper" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>Ha sido parte del equipo desde el EP1092. Es el quien lleva el cohete secreto
+                                        lleno de poké balls al Team Rocket.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h4>En su equipo</h4>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Morpeko</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Morpeko-tabla.webp" alt="Imagen de Morpeko" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>Aparece por primera vez en el EP1117, en la región de Galar. Desde ese momento,
+                                        Morpeko de algún modo siguió al Equipo/Team Rocket y les robaba toda la comida
+                                        que
+                                        tenían en su base de Ciudad Carmín. En el EP1159, deciden perder a Morpeko, pero
+                                        este encuentra a James y al final del episodio, este lo atrapa..</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h4>En los cuarteles genrales</h4>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Mime Jr.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Mime_Jr-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>En el EP424 decidió irse con James después de que su Chimecho se enfermara. Este
+                                        siempre imita a James. Después de salir de Sinnoh, se quedó en el Cuartel
+                                        General del Equipo/Team Rocket, por orden de Giovanni hasta el EP1234, donde es
+                                        devuelto a James.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Carnivine</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Carnivine-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>En el EP471 James encuentra su Pokébola/Poké Ball en un cofre donde tenía
+                                        guardadas muchas chapas de botella en una mansión de su familia en Sinnoh y
+                                        entra en su equipo. En el EP551 James recuerda que en su infancia lo encontró en
+                                        el Gran Pantano de Ciudad Pradera. Después de salir de Sinnoh se quedó en el
+                                        Cuartel General del Equipo/Team Rocket, por orden de Giovanni hasta el EP1234,
+                                        donde es devuelto a James.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Yamask</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Yamask-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>James encuentra un Yamask en una de las bodegas del puerto de Ciudad Porcelana, y
+                                        tras ofrecerle comida Pokémon se deja capturar por él. Después de salir de las
+                                        Islas Decolora/Decoloras lo dejó en el Cuartel General del Equipo/Team Rocket,
+                                        como muestra de lealtad hacia Giovanni hasta el EP1234, donde es devuelto a
+                                        James.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Amoonguss</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Amoonguss-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>Tiempo después del fracaso de la Operación Tempestad regresa a Unova/Teselia
+                                        donde captura al Pokémon hongo venenoso para fortalecer al equipo y llevar a
+                                        cabo sus nuevos planes. Después de salir de las Islas Decolora/Decoloras lo dejó
+                                        en el Cuartel General del Equipo/Team Rocket, como muestra de lealtad hacia
+                                        Giovanni hasta el EP1234, donde es devuelto a James.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Inkay</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Inkay-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>James lo captura en el EP807 y es el primer Pokémon que captura en la región de
+                                        Kalos en muy poco tiempo de haber llegado. Logró hacerse con él usando comida
+                                        como carnada. Se preocupa mucho por James, como se demuestra en el EP858, contra
+                                        Malamar. Se quedó en el Cuartel General del Equipo/Team Rocket cuando James
+                                        viajó a Alola por órdenes de Giovanni, pero vuelve con James en el EP1234.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <h4>Con sus parientes</h4>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Chimecho</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Chimecho-tabla.webp" alt="Imagen de Morpeko" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>En el EP424 se quedó en casa de sus abuelos, ya que Chimecho tenía fiebre alta y
+                                        no se recuperó a tiempo de que siguieran su camino. Desde entonces está allí.
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Growlithe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Growlie-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>En el EP048 se queda en la mansión de los padres de James, cuando él escapó de
+                                        Jessiebelle. Reaparece en el EP622 ayudando nuevamente a James.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h4>En entrenamiento</h4>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Cacnea</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Cacnea-tabla.webp" alt="Imagen de Cacnea" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>James atrapa a Cacnea en el EP282. Siempre le abrazaba al salir de su Poké Ball.
+                                        Deja su Cacnea a Gardenia en el EP523 porque se da cuenta de que con ella Cacnea
+                                        estará mucho mejor y con sus conocimientos sobre Pokémon de tipo planta
+                                        aprovechará todo el potencial de Cacnea.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h4>Liberados</h4>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Weezing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Weezing-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>Koffing es el primer Pokémon con el que aparece en la serie ya que fue su regalo
+                                        de navidad. Evolucionó a Weezing simultáneamente con el Arbok de Jessie y por la
+                                        misma razón (un fuerte deseo). Después es liberado con Arbok para que
+                                        protegieran a otros Ekans y Koffing que fueron atrapados por otro maleante.
+                                        Este contenido proviene de wikidex.net, y debe darse atribución a sus autores,
+                                        tal como especifica la licencia.
+                                        Se prohíbe su uso a PlagioDex (el wiki de FANDOOM), por copiar reiteradamente
+                                        sin dar atribución</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Gyarados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Gyarados-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>Lo compró en el EP015, siendo engañado por un vendedor de Magikarp y evolucionó
+                                        al llamarle "inútil" y lanzarlo de la balsa al mar. Luego este Pokémon se enfadó
+                                        con él y destrozó la balsa donde estaban todos usando furia dragón, haciéndolos
+                                        naufragar. Desde entonces ya no es un Pokémon de James.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Segundo Victreebel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Victreebel-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>Intercambió a su primer Victreebel por un Weepinbell en el EP263 al vendedor de
+                                        Magikarp. Después evolucionó y, tras intentar engullir a Jessie, ésta mandó
+                                        hacer un ataque a su Arbok que lo mandó volando. Al final de ese capítulo los
+                                        dos Victreebel se encuentran y se enamoran.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Hoppip</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Hoppip-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>James le compró un Hoppip disfrazado de Chimecho al vendedor de Magikarp, quien
+                                        le hizo creer que era este Pokémon en el EP360, pero pronto se dio cuenta de la
+                                        farsa y lo libera.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th scope="col">Mareanie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/Mareanie-tabla.webp" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>Lo capturó en el EP955 después de ser atacado, James quedo con una cara similar a
+                                        la de un Mareanie y esta se encariño con él de inmediato y posteriormente se
+                                        deja capturar en el hogar de Bewear.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h4>Intercambiados</h4>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Cacnea</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row align-items-center">
+                              
+                                    <img src="Pokémon/EP057_Victreebel_de_James.webp" alt="Imagen de Cacnea"
+                                        class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <p>En el EP057 apareció por primera vez, cuando fue a sacarlo del centro de crianza
+                                        y dijo que había evolucionado. Ahí comenzó su costumbre de morderle
+                                        cariñosamente la cabeza. Jessie, Meowth y Wobbuffet le obligaron a cambiarlo en
+                                        el EP263 por un Weepinbell. Al final su nuevo dueño lo abandona y se encuentra
+                                        con el otro Victreebel, enamorándose y marchándose a vivir juntos.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <!--Seccion Episodios-->
+    <section class="episodios" id="episodios">
+        <h2>Episodios</h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/EP002 emergencia pokemon.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Emergencia Pokémon</h5>
+                            <p class="card-text">La ciudad se encuentra en alerta máxima por la presencia de ladrones de
+                                Pokémon; ladrones como Jessie, James y Meowth del Team Rocket, un grupo de chicos malos
+                                que tratan de robar valiosos Pokémon.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/ep012 aqui llega el escuadron squirtle.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Aquí llega el Escuadrón Squirtle</h5>
+                            <p class="card-text">Ash y sus amigos van andando por un camino y caen en un agujero cavado
+                                por un grupo de Squirtle traviesos. Ash trepa a la superficie y trata de luchar contra
+                                ellos, pero estos se dispersan cuando llega la Agente Mara.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/ep022.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Abra y el enfrentamiento psíquico</h5>
+                            <p class="card-text">El grupo finalmente llega a Ciudad Azafrán donde una chica joven dirige
+                                un Gimnasio Pokémon utilizando sus poderes psíquicos. Si Ash derrota a esta Líder de
+                                Gimnasio, podrá ganar una Medalla de oro.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/ep031.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplasta a esos Diglett</h5>
+                            <p class="card-text">Ash, Brock, Misty y Pikachu están perdidos en las montañas. Cuando
+                                avanzan por una escabrosa carretera, que ni siquiera aparece en su mapa, escuchan de
+                                repente una gran explosión.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/EP036.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">La banda de la bici del puente</h5>
+                            <p class="card-text">Ash y Misty casi son engañados por Team
+                                Rocket, pero logran derrotarlos y continuar su viaje hacia Ciudad Carmín.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/ep040.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Los combatientes hermanos Eevee</h5>
+                            <p class="card-text">Siguiendo un camino a través del bosque, el grupo llega a un árbol
+                                cebado con un plato de comida y agua. Un Eevee está atado al tronco con una cuerda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/EP048.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sagrado matrimonio</h5>
+                            <p class="card-text">James es comprometido a casarse con una chica que no le gustan los
+                                pokémon.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/ep057.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">El secreto del centro de crianza</h5>
+                            <p class="card-text"> Ash y sus amigos deciden ir a un centro de crianza que han visto en un
+                                anuncio de la
+                                televisión, pero resulta ser solo una tapadera para un plan diabólico de Butch y
+                                Cassidy, ¡antiguos rivales de Jessie y James!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/ep080.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Un amigo de verdad</h5>
+                            <p class="card-text"> La madre de Ash y el Profesor Oak le hacen una visita sorpresa para
+                                verle combatir en el Torneo de la Liga Pokémon.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/ep084.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Susto en el aire</h5>
+                            <p class="card-text"> Ash, Brock y Misty se preparan para su largo viaje a Isla Valencia
+                                para devolver al Profesor Oak una misteriosa Poké Ball.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/ep094.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">La Joy de los Pokémon</h5>
+                            <p class="card-text"> Cuando navegan entre pequeñas islas, el grupo se encuentra con
+                                una Enfermera Joy extremadamente ocupada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="episodios/EP245.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">La canción y el baile de siempre</h5>
+                            <p class="card-text">Ash y sus amigos se enfrentan al Equipo Rocket en un
+                                concurso de canto
+                                y baile Pokémon, combinando habilidades para derrotarlos.</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <!--Seccion Testimonios-->
+    <section class="testimonios" id="testimonios">
+        <h2>Testimonios</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Jesse Team Rocket (1).jpg" class="d-block mx-auto w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Jesse</h5>
+                                    <q>Estúpido coleccionista de chapas</q>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Butch_Journeys (3).png" class="d-block mx-auto w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Butch</h5>
+                                    <q>¿Qué idea brillante has tenido esta vez, Jesse? Seguro que es tan brillante como
+                                        un Charizard en un día soleado </q>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Meowth Team Rocket.jpg" class="d-block mx-auto w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Meowth</h5>
+                                    <q>Cabeza de chorlito</q>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!--Seccion Contacto-->
+<section class="contacto" id="contacto">
+    <h2>Contacto</h2>
+    <div class="container mt-5">
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre">
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="correo" placeholder="Introduce tu correo electrónico">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
+                <br>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+        </form>
+    </div>
+</section>
+
+<!--Seccion Footer-->
+<footer class="footer text-center" id="footer">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Social media -->
+        <section class="mb-4">
+
+            <!-- Twitter -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #000000;"
+                href="https://twitter.com/Pokemon_ES_ESP" role="button"><i class="bi bi-twitter-x"></i></a>
+
+            <!-- Instagram -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                style="background:linear-gradient(45deg, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);"
+                href="https://www.instagram.com/pokemonesp/" role="button"><i class="bi bi-instagram"></i></a>
+
+            <!-- Facebook -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                href="https://www.facebook.com/PokemonOficialES/" role="button"><i class="bi bi-facebook"></i></a>
+
+            <!-- Youtube -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #d61900;"
+                href="https://www.youtube.com/@PokemonOficialES" role="button"><i class="bi bi-youtube"></i></a>
+
+            <!-- Tiktok -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #000000;"
+                href="https://www.tiktok.com/@pokemones" role="button"><i class="bi bi-tiktok"></i></a>
+
+            <div class="text-center p-3">Manuel Sebastián Iglesias Isla | 2º SRMA | Aplicaciones Web | <a
+                    href="https://github.com/Migleisla97"><i class="bi bi-github"></i></a>
+
+            </div>
+        </section>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-H3wdq4qN+6S6HgUV3PnX8O/tvBMkM9PCrMjGy+VuFxMNSfZmJ6y/0zM4j7PeSLv2"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

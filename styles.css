@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+* {
+    font-family: 'Work Sans';
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.navbar {
+  padding: 2rem;
+  background-color: #e9e9e6;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;  
+}
+
+/*SECCIÓN HERO*/
+.hero {
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
+        url(img/fondo.webp);
+    background-size: cover;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.hero h2 {
+    text-align: center;
+}
+
+/* SECCIÓN CONOCEME*/
+.conoceme {
+    background-color: #837d92;
+    padding: 1px;
+}
+
+.conoceme h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.conoceme p {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    font-family: "Righteous";
+}
+
+/* Estilos para la tabla pokemon*/
+.table {
+    padding: 1px; /* Ajuste de relleno */
+    border: 2px solid black !important; /* Borde negro */;
+}
+
+.table p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.table th {
+    text-align: center;
+    background-color: #4682B4 !important;
+}
+
+/* SECCIÓN EPISODIOS*/
+.episodios {
+    background-color: #7b80be;
+    padding: 1px;
+    padding-bottom: 10PX;
+}
+
+.episodios h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+
+/* SECCIÓN TESTIMONIOS*/
+.testimonios {
+    background-color: #837d92;
+    padding: 1px;
+    padding-bottom: 10px;
+}
+
+.testimonios h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.testimonios h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.testimonios q {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: #000000;
+}
+
+
+/* SECCIÓN CONTACTO*/
+.contacto {
+    background-color: #7b80be;
+    padding: 1px;
+}
+
+.contacto h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px;
+}
+
+.mb-3 {
+    font-weight: 800;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #e9e9e6;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .testimonios .carousel-item img {
+        max-height: 500px; /* Ajusta la altura según sea necesario */
+    }
+}
